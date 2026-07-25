@@ -28,7 +28,6 @@ export default function Home() {
       <article className="shop-panel" id="shop"><h2>Shop</h2><div className="gold-line" /><div className="shop-content"><div className="shop-art" /><div><p>Sample packs, drum kits, loop kits, and select DSBM pieces for the crate.</p><a className="outline-button small" href="#contact">View shop <span>→</span></a></div></div></article>
     </section>
 
-    <section className="contact-strip" id="contact"><p>Contact / inquiry</p><a href="mailto:hello@dsbmusic.com">✉ &nbsp; hello@dsbmusic.com</a></section>
-    <footer><div className="brand"><strong>DSBM</strong><span>Darkies Sampling Beat Mafia</span><small>© 2026 DSBM. All rights reserved.</small></div><div className="footer-social"><p>Stay connected</p><span>◉　◎　◌　𝕏</span></div><div className="advisory">Parental<br />Advisory</div></footer>
+    <footer id="contact"><div className="brand"><strong>DSBM</strong><span>Darkies Sampling Beat Mafia</span><small>© 2024 DSBM. All rights reserved.</small></div><div className="footer-social"><p>Stay connected</p><span>◉　◎　◌　𝕏</span></div><div className="footer-contact"><p>Contact / inquiry</p><a href="mailto:hello@dsbmusic.com">✉ &nbsp; dsbm.mafia@gmail.com</a></div><div className="advisory">Parental<br />Advisory</div></footer>
   </main>;
 }
