@@ -1,3 +1,4 @@
+import Image from "next/image";
 import BeatPlayer from "./beat-player";
 
 const beats = [
@@ -18,7 +19,7 @@ export default function Home() {
     <section className="hero" id="home">
       <aside className="hero-rail"><span>DSBM</span><i /><b>✛</b></aside>
       <div className="hero-art" />
-      <div className="hero-copy"><h1>Darkies<br />Sampling<br />Beat Mafia</h1><p>Raw soul. Dark samples. Real hip-hop.</p><div className="hero-actions"><a className="outline-button" href="#beats">Browse beats <span>→</span></a><a className="plain-link" href="#about">About DSBM</a></div></div>
+      <div className="hero-copy"><div style={{ display: "inline-block", maxWidth: "100%", position: "relative" }}><span aria-hidden="true" style={{ color: "#d5ad53", filter: "drop-shadow(0 0 7px #d5ad53)", fontSize: "18px", left: "-13px", pointerEvents: "none", position: "absolute", top: "19%" }}>✦</span><span aria-hidden="true" style={{ color: "#f5d983", filter: "drop-shadow(0 0 8px #f5d983)", fontSize: "12px", pointerEvents: "none", position: "absolute", right: "4%", top: "-8px" }}>◆</span><span aria-hidden="true" style={{ color: "#ba9140", filter: "drop-shadow(0 0 7px #ba9140)", fontSize: "13px", pointerEvents: "none", position: "absolute", right: "-11px", top: "56%" }}>✦</span><Image className="hero-logo" src="/dsbm-hero-logo.png" alt="Darkies Sampling Beat Mafia" width={1853} height={849} priority style={{ display: "block", filter: "drop-shadow(0 0 10px rgba(214, 169, 69, .28))", height: "auto", maxWidth: "100%", width: "430px" }} /></div><p>Raw soul. Dark samples. Real hip-hop.</p><div className="hero-actions"><a className="outline-button" href="#beats">Browse beats <span>→</span></a><a className="plain-link" href="#about">About DSBM</a></div></div>
       <ol className="hero-pages"><li className="selected">01</li><li>02</li><li>03</li></ol>
     </section>
 
