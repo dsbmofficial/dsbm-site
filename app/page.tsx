@@ -2,7 +2,7 @@ import BeatPlayer from "./beat-player";
 
 const beats = [
   ["Midnight Souls", "90 BPM  /  Boom Bap", "03:03", "night"],
-  ["Dusty Memories", "78 BPM  /  Lo-Fi", "03:12", "road"],
+  ["Dusty Memories", "78 BPM  /  Lo-Fi", "03:03", "road"],
   ["Dark Side of Mind", "85 BPM  /  Boom Bap", "02:30", "shadow"],
   ["No Light, No Hope", "92 BPM  /  Boom Bap", "02:51", "palms"],
 ];
@@ -22,7 +22,7 @@ export default function Home() {
       <ol className="hero-pages"><li className="selected">01</li><li>02</li><li>03</li></ol>
     </section>
 
-    <section className="latest" id="beats"><div className="section-label"><h2>Latest Beats</h2><a href="#contact">View all beats <span>→</span></a></div><div className="beat-row">{beats.map(([name, genre, duration, art]) => <article className="beat-item" key={name}><div className={`beat-art ${art}`} /><div className="beat-details"><h3>{name}</h3><p>{genre}</p><div>{name === "Midnight Souls" ? <BeatPlayer src="/audio/midnight-souls.m4a" title={name} /> : <button aria-label={`Play ${name}`}>▶</button>}<span>{duration}</span></div></div><button className="add" aria-label={`Add ${name}`}>＋</button></article>)}</div></section>
+    <section className="latest" id="beats"><div className="section-label"><h2>Latest Beats</h2><a href="#contact">View all beats <span>→</span></a></div><div className="beat-row">{beats.map(([name, genre, duration, art]) => <article className="beat-item" key={name}><div className={`beat-art ${art}`} /><div className="beat-details"><h3>{name}</h3><p>{genre}</p><div>{name === "Midnight Souls" ? <BeatPlayer src="/audio/midnight-souls.m4a" title={name} /> : name === "Dusty Memories" ? <BeatPlayer src="/audio/dusty-memories.mp4" title={name} /> : <button aria-label={`Play ${name}`}>▶</button>}<span>{duration}</span></div></div><button className="add" aria-label={`Add ${name}`}>＋</button></article>)}</div></section>
 
     <section className="columns">
       <article className="about-panel" id="about"><h2>About DSBM</h2><div className="gold-line" /><div className="about-content"><div className="about-art" /><div><p>Darkies Sampling Beat Mafia is Detroit-bred sound craft: warm vinyl dust, sharp drums, and melodies built for the spaces between midnight and morning.</p><p>Influenced by soul records, 90s hip-hop and the quiet confidence of the city, every beat leaves room for an artist to become the moment.</p><a className="outline-button small" href="#contact">View more <span>→</span></a></div></div></article>
