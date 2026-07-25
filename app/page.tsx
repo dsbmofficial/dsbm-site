@@ -12,7 +12,7 @@ export default function Home() {
     <header className="masthead">
       <a className="brand" href="#home"><strong>DSBM</strong><span>Darkies Sampling Beat Mafia</span></a>
       <nav className="main-nav" aria-label="Main navigation"><a className="active" href="#home">Home</a><a href="#beats">Beats</a><a href="#license">License</a><a href="#about">About</a><a href="#shop">Shop</a><a href="#contact">Contact</a></nav>
-      <div className="socials" aria-label="Social links"><span>◉</span><span>◎</span><span>✉</span></div>
+      <div className="socials" aria-label="Social links"><a href="http://www.youtube.com/@turndaback" aria-label="YouTube"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.2 3.6-6.2 3.6Z" /></svg></a><a href="https://www.instagram.com/turndaback?igsh=amdvMWlheHgxMnd0&utm_source=qr" aria-label="Instagram"><svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none" /></svg></a><a href="mailto:three-point-shooters.turn-the-back@gmail.com" aria-label="Email"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg></a></div>
     </header>
 
     <section className="hero" id="home">
