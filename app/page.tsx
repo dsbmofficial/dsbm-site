@@ -5,7 +5,6 @@ const beats = [
   ["Midnight Souls", "90 BPM  /  Boom Bap", "03:03", "night"],
   ["Dusty Memories", "78 BPM  /  Lo-Fi", "03:18", "road"],
   ["Dark Side of Mind", "85 BPM  /  Boom Bap", "03:00", "shadow"],
-  ["No Light, No Hope", "92 BPM  /  Boom Bap", "02:51", "palms"],
   ["Mirage", "Instrumental", "05:16", "mirage"],
 ];
 
