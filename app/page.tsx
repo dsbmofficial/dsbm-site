@@ -56,8 +56,8 @@ export default function Home() {
 
       <article className="studio-shop" id="shop">
         <div className="studio-section-label"><span>03 / THE COLLECTION</span><span>DSBM SHOP</span></div>
-        <div className="studio-shop-grid"><div><h2>BUILD YOUR<br /><span>NEXT SOUND.</span></h2><p>Sample packs. Drum kits. Loop kits.<br />Ask about the DSBM collection and availability.</p><a className="studio-shop-cta" href="mailto:threepointshooterz.turndaback@gmail.com?subject=DSBM%20Shop%20Inquiry">Shop inquiries <span>↗</span></a></div>
-          <div className="studio-categories"><a href="mailto:threepointshooterz.turndaback@gmail.com?subject=Sample%20Packs"><span>01</span><strong>Sample packs</strong><b>↗</b></a><a href="mailto:threepointshooterz.turndaback@gmail.com?subject=Drum%20Kits"><span>02</span><strong>Drum kits</strong><b>↗</b></a><a href="mailto:threepointshooterz.turndaback@gmail.com?subject=Loop%20Kits"><span>03</span><strong>Loop kits</strong><b>↗</b></a></div>
+        <div className="studio-shop-grid"><div><h2>COMING<br /><span>SOON.</span></h2><p lang="ja">ただいま準備中です。<br />ショップの詳細は、準備が整い次第お知らせします。</p></div>
+          <div><span className="eyebrow">DSBM SHOP / IN THE WORKS</span><p>The shop is in preparation.<br />Products are not available for purchase yet.</p></div>
         </div>
       </article>
     </section>
