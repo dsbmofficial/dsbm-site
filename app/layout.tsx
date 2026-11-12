@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./brand.css";
+import "./chrome.css";
 
 export const metadata: Metadata = {
   icons: { icon: "/dirt-sampling-emblem.png", apple: "/dirt-sampling-emblem.png" },
