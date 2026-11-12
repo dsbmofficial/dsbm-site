@@ -1,0 +1,14 @@
+:root { --gold: #c3c8d0; }
+.hero { height: auto; min-height: 540px; background: #030303; }
+.hero-art { inset: 0; background: #030303; }
+.hero-copy { position: relative; top: auto; left: auto; right: auto; width: 100%; padding: 0 24px 42px; text-align: center; }
+.hero-logo-wrap { width: min(900px, 100%); margin: 0 auto; transform: none; }
+.hero-logo { display: block; width: 100%; height: auto; }
+.hero-copy > p { width: auto; transform: none; margin: -24px 0 24px; position: relative; }
+.hero-actions { width: auto; transform: none; justify-content: center; }
+@media (max-width: 620px) {
+  .hero { min-height: 360px; }
+  .hero-copy { padding: 24px 16px 64px; }
+  .hero-copy > p { margin: 8px 0 24px; font-size: 11px; }
+  .hero-actions { flex-wrap: wrap; gap: 24px; }
+}

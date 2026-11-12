@@ -1,6 +1,6 @@
-# Darkies Sampling Beat Mafia
+# Dirt Sampling Beat Mafia
 
-A premium, responsive Next.js landing page for Darkies Sampling Beat Mafia.
+A premium, responsive Next.js landing page for Dirt Sampling Beat Mafia.
 
 ## Local development
 
